@@ -1,1 +1,5 @@
-利用spring的aop和caffeine的缓存，简单实现了方法返回值的缓存操作。
+利用[Spring][spring]的aop和[Caffeine][caffeine]的缓存，简单实现了方法返回值的缓存操作。
+
+
+[caffeine]: https://github.com/ben-manes/caffeine/wiki
+[spring]: https://github.com/ben-manes/caffeine/wiki
