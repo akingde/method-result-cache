@@ -31,10 +31,4 @@ public @interface MethodCache {
      */
     boolean sync() default false;
 
-    /**
-     * 是否缓存空对象
-     * @return
-     */
-    boolean nullPattern() default true;
-
 }
