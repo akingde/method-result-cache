@@ -1,0 +1,1 @@
+利用spring的aop和caffeine的缓存，简单实现了方法返回值的缓存操作。
