@@ -1,2 +1,2 @@
-利用[Spring](https://github.com/ben-manes/caffeine/wiki)的aop和[Caffeine](https://github.com/ben-manes/caffeine/wiki)的缓存，简单实现了方法返回值的缓存操作。
+利用[Spring]的aop和[Caffeine]的缓存，简单实现了方法返回值的缓存操作。
 
