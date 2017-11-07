@@ -17,12 +17,13 @@
 	<context:annotation-config />
 
 	<bean class="org.hope.cache.CaffeineCache" id="caffeineCache"></bean>
+	<bean class="org.hope.cache.GuavaCache" id="guavaCache"></bean>
 
 	<bean class="org.test.Mimi" id="mimi"></bean>
 
 	<bean class="org.hope.proxy.MethodCacheAnnotationAspect">
 		<property name="serviceCache">
-			<ref bean="caffeineCache" />
+			<ref bean="guavaCache" />
 		</property>
 	</bean>
 

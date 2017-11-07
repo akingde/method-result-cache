@@ -2,12 +2,10 @@ package org.hope.cache;
 
 import com.github.benmanes.caffeine.cache.Caffeine;
 import org.springframework.beans.factory.InitializingBean;
-import org.springframework.stereotype.Component;
 
 /**
  * Created by hope on 17/11/5.
  */
-@Component
 public class CaffeineCache implements Cache,InitializingBean {
 
     com.github.benmanes.caffeine.cache.Cache<Object, Object> cache = null;
